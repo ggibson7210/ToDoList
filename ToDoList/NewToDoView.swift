@@ -17,7 +17,6 @@ struct NewToDoView: View {
             
             TextField("task description", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .multilineTextAlignment(.center)
-                .padding()
             
             Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
                 Text("is it important?")
